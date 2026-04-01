@@ -1,83 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jhuma Pan | Photonics Researcher</title>
-  <style>
-    :root {
-      --primary: #1e3a8a;
-      --secondary: #0ea5e9;
-      --bg: #f8fafc;
-      --text: #0f172a;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-    }
-
-    header {
-      background: var(--primary);
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      background: #020617;
-      padding: 10px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: var(--secondary);
-    }
-
-    section {
-      padding: 40px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: var(--primary);
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      margin: 15px 0;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: var(--primary);
-      color: white;
-    }
-
-    button {
-      background: var(--secondary);
-      border: none;
-      padding: 10px 15px;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-  </style>
 </head>
 <body>
 
@@ -95,55 +21,41 @@
 
 <section id="about">
   <h2>About Me</h2>
-  <div class="card">
-    <p>
-      I am a photonics researcher specializing in metasurfaces, infrared absorption, and optical sensing. 
-      My work focuses on plasmon-enhanced Berreman modes, flexible metasurfaces, and real-time sensing applications.
-    </p>
-  </div>
+  <p>
+    I am a photonics researcher specializing in metasurfaces, infrared absorption, and optical sensing.
+    My work focuses on plasmon-enhanced Berreman modes, flexible metasurfaces, and real-time sensing applications.
+  </p>
 </section>
 
 <section id="research">
   <h2>Research Work</h2>
-  <div class="card">
-    <ul>
-      <li>Plasmon-enhanced IR absorption using MIM structures</li>
-      <li>Flexible metasurfaces on PDMS substrates</li>
-      <li>Breath analysis sensors for VOC detection</li>
-      <li>Dielectric metasurfaces for nonlinear optics</li>
-    </ul>
-  </div>
+  <ul>
+    <li>Plasmon-enhanced IR absorption using MIM structures</li>
+    <li>Flexible metasurfaces on PDMS substrates</li>
+    <li>Breath analysis sensors for VOC detection</li>
+    <li>Dielectric metasurfaces for nonlinear optics</li>
+  </ul>
 </section>
 
 <section id="publications">
   <h2>Publications & Achievements</h2>
-  <div class="card">
-    <ul>
-      <li>IEEE Sensors Journal</li>
-      <li>Journal of Lightwave Technology</li>
-      <li>Best Optica Poster Award (Photonics 2024)</li>
-    </ul>
-  </div>
+  <ul>
+    <li>IEEE Sensors Journal</li>
+    <li>Journal of Lightwave Technology</li>
+    <li>Best Optica Poster Award (Photonics 2024)</li>
+  </ul>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <div class="card">
-    <p>Email: your.email@example.com</p>
-    <button onclick="showMessage()">Say Hello</button>
-    <p id="msg"></p>
-  </div>
+  <p>Email: your.email@example.com</p>
+  <button id="helloBtn">Say Hello</button>
+  <p id="msg"></p>
 </section>
 
 <footer>
   <p>© 2026 Jhuma Pan</p>
 </footer>
-
-<script>
-  function showMessage() {
-    document.getElementById("msg").innerText = "Thanks for visiting my page!";
-  }
-</script>
 
 </body>
 </html>
